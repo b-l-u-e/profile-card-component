@@ -68,24 +68,31 @@ body {
   padding-right: 0.8rem;
 }
 
-.main .personal-detail .stats {
+.main .stats {
   display: flex;
-  margin: 0.5rem;
+  background-color: #fff;
+  position: relative;
+  top: -8rem;
+  padding-bottom: 2rem;
+  /* margin: 0.5rem; */
 }
 
-.main .personal-detail .stats .status-section {
-  padding: 2rem;
+.main .stats .status-section {
+  padding: 2rem 3rem;
+  flex: 1;
 }
 
-.main .personal-detail .stats .status-section .stats-count span {
+.main .stats .status-section .stats-count span {
   display: block;
   padding: 0.3rem 0 0 0;
+  color: hsl(0, 0%, 59%);
 }
 
 @media (max-width: 500px) {
   .main {
     max-width: 25rem;
     border-radius: 0;
+    margin: 2rem;
   }
 
   .main .profile-pic {
@@ -94,5 +101,9 @@ body {
 
   .main .personal-detail {
     font-size: 1rem;
+  }
+
+  .main .stats .status-section {
+    padding: 2rem;
   }
 }
