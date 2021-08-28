@@ -27,7 +27,7 @@ Users will be able to:
 
 ### Links
 
-- Live Site URL: [profile-card-component]()
+- Live Site URL: [profile-card-component](https://optimistic-joliot-c385ae.netlify.app)
 
 ## my-process
 
